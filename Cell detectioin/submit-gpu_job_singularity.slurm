@@ -40,7 +40,7 @@ HOME=/home/$USER \
     --bind "$code:/code" \
     --bind "$counter_dir:/counter_dir" \
     --bind "$output:/output" \
-    docker://yhagos/concorde:imcgpu /bin/bash --norc --noprofile -c "
+    docker://yhagos/tf2gpu:concordenet /bin/bash --norc --noprofile -c "
     which ls;
     python /code/main.py  --data_dir /data --counter_dir /counter_dir --output /output
     "
