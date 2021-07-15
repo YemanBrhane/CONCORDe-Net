@@ -1,5 +1,6 @@
 # ConCORDe-Net: Cell Count Regularized Convolutional Neural Network for Cell Detection in Multiplex Immunohistochemistry Images
 
+## Description
 ConCORDe-Net is a new cell detection method followed by multi-stage CNN to analyse mIHC images. Our work has the following main contributions: 
 1) We developed Cell Count RegularizeD Convolutional neural Network (ConCORDe-Net) inspired by inception-v3 which incorporates cell counter and designed for cell detection without the need of pre-specifying parameters such as cell size. 
 2) The parameters of ConCORDe-Net were optimized using an objective function that  combines conventional Dice overlap and a new cell count loss function which regularizes the network parameters to detect closely located cells. 
@@ -25,4 +26,4 @@ It is published in MICCAI 2019 and the full manuscript is available on [springer
 ![](images/cellclassificationresult.png "cell classifer")
 
 ## Comparision with state of the art methods
-![](images/comparison.png "Comparision with state of the art methods")
+![](images/comparison_img.png "Comparision with state of the art methods")
