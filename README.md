@@ -26,4 +26,7 @@ It is published in MICCAI 2019 and the full manuscript is available on [springer
 ![](images/cellclassificationresult.png "cell classifer")
 
 ## Comparision with state of the art methods
-![](images/comparison_img.png "Comparision with state of the art methods")
+![](images/comparison_img.png) "Comparision with state of the art methods"
+
+## Citation
+If you use this code in your work please cite CONCORDe-Net as: Hagos, Yeman Brhane, et al. "Concorde-net: Cell count regularized convolutional neural network for cell detection in multiplex immunohistochemistry images." International Conference on Medical Image Computing and Computer-Assisted Intervention. Springer, Cham, 2019.
